@@ -180,7 +180,7 @@ body {
 }
 input.fback {
     height: 50px;
-    width: 500px;
+    width: 100%;
 }
 input.submitFeedback {
     padding: 10px;
