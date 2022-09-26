@@ -37,7 +37,8 @@ body{
     height: 1000px;
     background-image: linear-gradient(black, grey, silver, pink, rgb(189, 77, 77), red);
     background-size: cover;
-    overflow: hidden;
+    overflow: scroll;
+    overflow-x: hidden;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .boxes {
