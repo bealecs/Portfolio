@@ -116,7 +116,6 @@
     margin: 20px;
     border: 1px black solid;
     background-color: lightgrey;
- 
     transition: border, color;
 }
 .rightPara:hover {
@@ -136,6 +135,7 @@
 .paras {
     display: flex;
     height: 80%;
+  
 }
 footer {
     color: white;
@@ -165,7 +165,6 @@ body {
 }
 .secondBody h4 {
     font-size: xx-large;
-    margin-top: 100px;
 }
 .secondBody p {
     font-size: larger;
@@ -315,5 +314,10 @@ input.submitFeedback:hover {
         color: red;
         font-size: 1rem;
 
+    }
+    @media only screen and (max-width: 969px) {
+       body {
+        height: 1500px;
+       }
     }
 }
