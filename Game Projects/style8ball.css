@@ -1,6 +1,6 @@
 body {
     height: 1000px;
-    background-image: linear-gradient(black, grey, silver, pink, rgb(189, 77, 77), red);
+    background-image: linear-gradient(rgb(62, 207, 243), rgb(130, 248, 179), rgb(214, 134, 252), rgb(196, 85, 248), rgb(150, 22, 236));
     background-size: cover;
     background-repeat: round;
     overflow: scroll;
@@ -38,7 +38,7 @@ button.submit:hover {
     display: block;
     width: 500px;
     height: 50px;
-    background-color: red;
+    background-color: rgb(148, 51, 192);
     color: white;
 }
 .image {
@@ -94,7 +94,7 @@ p.answers {
         display: block;
         width: 500px;
         height: 50px;
-        background-color: red;
+        background-color: rgb(148, 51, 192);
         color: white;
     }
     .image {

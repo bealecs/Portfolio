@@ -15,14 +15,14 @@
     margin-left: 150px;
     margin-right: 150px;
     transition: font-size 0.3s ease-in;
-    color: white;
+    color: rgb(33, 54, 42);
 }
 .header-nav li:hover {
     display: inline-flex;
     justify-content: center;
     margin-left: 100px;
     margin-right: 100px;
-    color: red;
+    color: white;
     font-size: 1.5em;
 }
 .topPart {
@@ -35,7 +35,7 @@
 }
 body{
     height: 1000px;
-    background-image: linear-gradient(black, grey, silver, pink, rgb(189, 77, 77), red);
+    background-image: linear-gradient(rgb(62, 207, 243), rgb(130, 248, 179), rgb(214, 134, 252), rgb(196, 85, 248), rgb(150, 22, 236));
     background-size: cover;
     overflow: scroll;
     overflow-x: hidden;
@@ -96,28 +96,26 @@ body{
     font-size: 40px;
     margin: 50px;
     width: 700px;
-    background-color: rgb(255, 0, 0, 0.3);
+    background-color: rgba(80, 194, 202, 0.3);
 }
 .box2:hover {
     font-size: 40px;
     margin: 50px;
     width: 700px;
-    background-color: rgb(255, 0, 0, 0.3);
-
+    background-color: rgba(80, 194, 202, 0.3);
 }
 .box3:hover {
     font-size: 40px;
     margin: 50px;
     width: 700px;
-    background-color: rgb(255, 0, 0, 0.3);
+    background-color: rgba(188, 124, 248, 0.3);
 
 }
 .box4:hover {
     font-size: 40px;
     margin: 50px;
     width: 700px;
-    background-color: rgb(255, 0, 0, 0.3);
-
+    background-color: rgba(188, 124, 248, 0.3);
 }
 @media only screen and (max-width: 1769px) {
     .header-nav li {
@@ -126,14 +124,14 @@ body{
         margin-left: 100px;
         margin-right: 100px;
         flex-wrap: nowrap;
-        color: lightgrey;
+        color: rgb(33, 54, 42);
     }
     .header-nav li:hover {
         display: inline-flex;
         justify-content: center;
         margin-left: 100px;
         margin-right: 100px;
-        color: red;
+        color: white;
         font-size: 1rem;
     }
     .box1 {
@@ -176,27 +174,27 @@ body{
         font-size: 22px;
         margin: 10px;
         width: 600px;
-        background-color: rgb(255, 0, 0, 0.3);
+        background-color: rgba(80, 194, 202, 0.3);
     }
     .box2:hover {
         font-size: 22px;
         margin: 10px;
         width: 600px;
-        background-color: rgb(255, 0, 0, 0.3);
+        background-color: rgba(80, 194, 202, 0.3);
     
     }
     .box3:hover {
         font-size: 22px;
         margin: 10px;
         width: 600px;
-        background-color: rgb(255, 0, 0, 0.3);
+        background-color: rgba(188, 124, 248, 0.3);
     
     }
     .box4:hover {
         font-size: 22px;
         margin: 10px;
         width: 600px;
-        background-color: rgb(255, 0, 0, 0.3);
+        background-color: rgba(188, 124, 248, 0.3);
     
     }
 }
@@ -205,7 +203,7 @@ body{
         display: inline-flex;
         justify-content: center;
         flex-wrap: nowrap;
-        color: lightgrey;
+        color: rgb(33, 54, 42);
     }
     footer {
         display: none;
@@ -213,7 +211,7 @@ body{
     .header-nav li:hover {
         display: inline-flex;
         justify-content: center;
-        color: red;
+        color: white;
         font-size: 1rem;
     }
     .box1 {
@@ -256,27 +254,27 @@ body{
         font-size: 16px;
         margin: 10px;
         width: 300px;
-        background-color: rgb(255, 0, 0, 0.3);
+        background-color: rgba(80, 194, 202, 0.3);
     }
     .box2:hover {
         font-size: 16px;
         margin: 10px;
         width: 300px;
-        background-color: rgb(255, 0, 0, 0.3);
+        background-color: rgba(80, 194, 202, 0.3);
     
     }
     .box3:hover {
         font-size: 16px;
         margin: 10px;
         width: 300px;
-        background-color: rgb(255, 0, 0, 0.3);
+        background-color: rgba(188, 124, 248, 0.3);
     
     }
     .box4:hover {
         font-size: 16px;
         margin: 10px;
         width: 300px;
-        background-color: rgb(255, 0, 0, 0.3);
+        background-color: rgba(188, 124, 248, 0.3);
     
     }
     
@@ -287,7 +285,7 @@ body{
         justify-content: center;
         flex-wrap: wrap;
         flex-direction: column;
-        color: lightgrey;
+        color: rgb(33, 54, 42);
         margin: 0px;
         padding: 0px;
 
@@ -298,7 +296,7 @@ body{
     .header-nav li:hover {
         display: flex;
         justify-content: center;
-        color: red;
+        color: white;
         font-size: 1rem;
         margin: 0px;
         padding: 0px;
@@ -343,27 +341,27 @@ body{
         font-size: 12px;
         margin: 10px;
         width: 150px;
-        background-color: rgb(255, 0, 0, 0.3);
+        background-color: rgba(80, 194, 202, 0.3);
     }
     .box2:hover {
         font-size: 12px;
         margin: 10px;
         width: 150px;
-        background-color: rgb(255, 0, 0, 0.3);
+        background-color: rgba(80, 194, 202, 0.3);
     
     }
     .box3:hover {
         font-size: 12px;
         margin: 10px;
         width: 150px;
-        background-color: rgb(255, 0, 0, 0.3);
+        background-color: rgba(188, 124, 248, 0.3);
     
     }
     .box4:hover {
         font-size: 12px;
         margin: 10px;
         width: 150px;
-        background-color: rgb(255, 0, 0, 0.3);
+        background-color: rgba(188, 124, 248, 0.3);
     
     }
     .topPart {
