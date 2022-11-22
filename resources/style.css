@@ -1,5 +1,6 @@
 :root {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
 .header-nav {
     display: flex;
@@ -23,7 +24,7 @@
     justify-content: center;
     margin-left: 100px;
     margin-right: 100px;
-    color: rgb(250, 40, 145);
+    color: white;
     font-size: 1.5em;
 }
 header p {
@@ -56,12 +57,10 @@ header {
 }
 .headerinfocontainer {
     display: flex; 
-   
     margin-top: 10px;
 }
 .headerinfocontainer p { 
-    text-align: center;
-    align-items: center;
+    line-height: 1.5;
     margin-left: 100px;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -75,22 +74,74 @@ header {
     border-top: none;
     border-radius: 10px;
 }
+.container h3 {
+    text-align: center;
+    color: black;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+.container {
+    background-color: white;
+    height: 1000px;
+    margin: 25px;
+}
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+h5.card-title {
+    text-align: center;
+}
+p.card-text {
+    line-height: 1.5;
+}
+.card {
+    height: 100px;
+    margin-top: 50px;
+}
+.underline {
+    height: 5px;
+    background-color: black;
+    width: 50px;
+    margin: auto;
+}
+.underline2 {
+    height: 5px;
+    background-color: white;
+    width: 50px;
+    margin: auto;
+}
+.breakup h3 {
+    text-align: center;
+    color: white;
+}
+.long-journey {
+    line-height: 2;
+    color: white;
+}
+.breakup {
+    margin: 25px;
+    padding: 15px;
+}
 footer {
     display: block;
     color: white;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    margin-left: 100px;
-    margin-right: 100px;
+    text-align: center;
 }
-
-footer p {
-    padding-left: 300px;
-    padding-top: 40px;
+.social {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.social i {
+    margin: 25px;
+    color: white;
+    
 }
 body {
-    height: 1000px;
+    height: auto;
     background-image: linear-gradient(rgb(62, 207, 243), rgb(130, 248, 179), rgb(214, 134, 252), rgb(196, 85, 248), rgb(150, 22, 236));
     background-size: cover;
     background-repeat: round;
@@ -104,34 +155,36 @@ body {
         margin-left: 100px;
         margin-right: 100px;
         flex-wrap: nowrap;
-        color: lightgrey;
+        color: rgb(33, 54, 42);
     }
     .header-nav li:hover {
         display: inline-flex;
         justify-content: center;
         margin-left: 100px;
         margin-right: 100px;
-        color: rgb(250, 40, 145);
+        color: white;
         font-size: 1rem;
     }
-    body {
-        overflow: hidden;
-    }
-    footer {
+    
+}
+@media only screen and (max-width: 1375px) {
+    .card img {
         display: none;
     }
-}
-@media only screen and (max-width: 1369px) {
+    .card-body {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .card-title {
+        display: none;
+    }
     .header-nav li {
         display: inline-flex;
         justify-content: center;
         margin-left: 50px;
         margin-right: 50px;
         flex-wrap: nowrap;
-        color: lightgrey;
-    }
-    footer {
-        display: none;
+        color: rgb(33, 54, 42);
     }
     body {
         overflow: scroll;
@@ -142,7 +195,7 @@ body {
         justify-content: center;
         margin-left: 50px;
         margin-right: 50px;
-        color: red;
+        color: white;
         font-size: 1rem;
     }
 }
@@ -152,22 +205,22 @@ body {
        flex-wrap: wrap;
         margin-top: 10px;
     }
-    footer {
-        display: none;
-    }
     body {
         overflow: scroll;
         overflow-x: hidden;
     }
 }
-@media only screen and (max-width: 969px) {
+@media only screen and (max-width: 1000px) {
+    .container {
+        display: none;
+    }
     .header-nav li {
         display: inline-flex;
         justify-content: center;
         margin-left: 10px;
         margin-right: 10px;
         flex-wrap: nowrap;
-        color: lightgrey;
+        color: rgb(33, 54, 42);
     }
    
     .header-nav li:hover {
@@ -175,21 +228,19 @@ body {
         justify-content: center;
         margin-left: 10px;
         margin-right: 10px;
-        color: red;
+        color: white;
         font-size: 1rem;
 
     }
-    footer {
-        display: none;
-    }
+    
     body {
         overflow: scroll;
         overflow-x: hidden;
     }
     .headerinfo {
-        background-color: lightgrey;
+        background-color: rgb(152, 250, 253);
         display: block;
-        border: outset rgb(255, 0, 0) 6px;
+        border: outset white 6px;
         border-bottom: none;
         border-right: none;
         border-radius: 10px;
@@ -208,8 +259,8 @@ body {
         padding: 0px;
         margin: 0px;
         color: black;
-        background-color: lightgrey;
-        border: inset rgb(255, 0, 0) 6px;
+        background-color: rgb(152, 250, 253);
+        border: inset white 6px;
         border-left: none;
         border-top: none;
         border-radius: 10px;
@@ -235,8 +286,8 @@ body {
         margin: 0px;
         padding: 0px;
         color: black;
-        background-color: lightgrey;
-        border: inset rgb(255, 0, 0) 6px;
+        background-color: rgb(152, 250, 253);
+        border: inset white 6px;
         border-left: none;
         border-top: none;
         border-radius: 10px;
