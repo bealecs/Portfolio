@@ -16,21 +16,22 @@
     margin-left: 150px;
     margin-right: 150px;
     transition: font-size 0.3s ease-in;
-    color: lightgrey;
+    color: rgb(33, 54, 42);
 }
 .header-nav li:hover {
     display: inline-flex;
     justify-content: center;
     margin-left: 100px;
     margin-right: 100px;
-    color: red;
+    color: rgb(250, 40, 145);
     font-size: 1.5em;
 }
 header p {
     padding: 100px;
 }
 .headerinfo {
-    background-color: lightgrey;
+    background-color: rgb(152, 250, 253);
+    opacity: 0.9;
     display: block;
     text-align: center;
     max-height: 700px;
@@ -38,7 +39,7 @@ header p {
     margin-bottom: 30px;
     width: 600px;
     padding: 10px;
-    border: outset rgb(255, 0, 0) 6px;
+    border: outset rgb(255, 255, 255) 6px;
     border-bottom: none;
     border-right: none;
     border-radius: 10px;
@@ -68,8 +69,8 @@ header {
     font-size: 31px;
     padding-top: 125px;
     color: black;
-    background-color: lightgrey;
-    border: inset rgb(255, 0, 0) 6px;
+    background-color: rgb(152, 250, 253);
+    border: inset rgb(255, 255, 255) 6px;
     border-left: none;
     border-top: none;
     border-radius: 10px;
@@ -90,7 +91,7 @@ footer p {
 }
 body {
     height: 1000px;
-    background-image: linear-gradient(black, grey, silver, pink, rgb(189, 77, 77), red);
+    background-image: linear-gradient(rgb(62, 207, 243), rgb(130, 248, 179), rgb(214, 134, 252), rgb(196, 85, 248), rgb(150, 22, 236));
     background-size: cover;
     background-repeat: round;
     overflow-y: scroll;
@@ -110,7 +111,7 @@ body {
         justify-content: center;
         margin-left: 100px;
         margin-right: 100px;
-        color: red;
+        color: rgb(250, 40, 145);
         font-size: 1rem;
     }
     body {
