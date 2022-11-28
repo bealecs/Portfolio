@@ -62,11 +62,9 @@ header {
 }
 .headerinfocontainer p { 
     line-height: 1.5;
-    margin-left: 100px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 10px;
-    font-size: 31px;
+    margin: auto;
+    margin-left: 35px;
+    font-size: 30px;
     padding-top: 125px;
     color: black;
     background-color: rgb(152, 250, 253);
@@ -170,6 +168,7 @@ body {
     }
     
 }
+
 @media only screen and (max-width: 1375px) {
     .card img {
         display: none;
@@ -205,12 +204,27 @@ body {
     @media only screen and (max-width: 1508px) {
     .headerinfocontainer {
         display: flex; 
-       flex-wrap: wrap;
-        margin-top: 10px;
+        font-size: auto;
     }
     body {
         overflow: scroll;
         overflow-x: hidden;
+    }
+    .headerinfocontainer p { 
+        font-size: 20px;
+        padding: 0px;
+        margin: auto;
+        margin-left: 35px;
+        color: black;
+        background-color: rgb(152, 250, 253);
+        border: inset white 6px;
+        border-left: none;
+        border-top: none;
+        border-radius: 10px;
+
+    }
+    .container {
+        height: 650px;
     }
 }
 @media only screen and (max-width: 1000px) {
@@ -259,8 +273,6 @@ body {
    }
     .headerinfocontainer p { 
         font-size: 20px;
-        padding: 0px;
-        margin: 0px;
         color: black;
         background-color: rgb(152, 250, 253);
         border: inset white 6px;
