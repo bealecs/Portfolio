@@ -15,7 +15,7 @@ export const Meal = () => {
     useEffect(() => {
         fetchFood();
     }, []);
-zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+
     return (
         <>
         <h1 className='title1'>Meal Suggestion Generator</h1>
